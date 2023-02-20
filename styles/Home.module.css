@@ -1,0 +1,132 @@
+.headerbackground {
+  border-radius: 0% 0% 100% 0% / 0% 98% 21% 25%;
+  background-color: #182779;
+  position: relative;
+  height: 570px;
+}
+
+.headerbackground img {
+  position: absolute;
+  bottom: 35px;
+  right: 150px;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.headercontent {
+  max-width: 1200px;
+  padding: 0px 0px 0px 3%;
+  margin: auto;
+}
+
+.header nav {
+  grid-template-columns: 75% 25%;
+  padding: 25px 0 10px 0;
+  display: grid;
+}
+
+.userNnav {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.main .intro {
+  margin: 65px 0px 140px 0px;
+}
+
+.main .intro h1,
+.main .intro p {
+  color: white;
+}
+
+.main .intro h1 span {
+  display: block;
+  color: #00affd;
+}
+
+.main .locationbar .locbar_search { 
+  background-color: white;
+  display: inline-flex;
+  border-radius: 5px;
+}
+
+.main .locationbar .locbar_search .loc_icon {
+  padding: 10px 2px 0px 9px;
+}
+
+.main .locationbar .locbar_search input {
+  padding: 0px 10px 0px 0px;
+  outline: none;
+  width: 170px;
+  border: none;
+}
+
+.main .locationbar .locbar_search .go {
+  background-color: #00d4b5;
+  border-radius: 0px 5px 5px 0px;
+  padding: 8px 15px;
+}
+
+.main .locationbar .loc_dropdown {
+  background-color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  overflow-y: scroll;
+  scrollbar-width: 15px;
+  height: 220px;
+  width: 220px;
+}
+
+.main .locationbar .loc_dropdown .current {
+  align-items: center;
+  display: flex;
+}
+
+.main .locationbar .loc_dropdown .current span {
+  padding: 2px 4px 13px 4px;
+  color: navy;
+}
+
+.main .locationbar .loc_dropdown .recent ul ,
+.main .locationbar .loc_dropdown .popular ul{
+  list-style: none;
+}
+
+.main .locationbar .loc_dropdown .recent h4,
+.main .locationbar .loc_dropdown .popular h4 {
+  padding: 10px 0px 15px 0px;
+}
+
+.main .locationbar .loc_dropdown .recent ul li,
+.main .locationbar .loc_dropdown .popular ul li {
+  padding: 4px 0px 5px 0px;
+  align-items: center;
+  display: flex;
+}
+
+.main .locationbar .loc_dropdown .recent ul li span,
+.main .locationbar .loc_dropdown .popular ul li span {
+  padding-left: 5px;
+  padding-top: 7px;
+}
+
+.mainEnd {
+  position: relative;
+  display: flex;
+}
+
+.coach {
+  position: absolute;
+  top: -70px;
+  left: 30%;
+}
+
+.car {
+  position: absolute;
+  right: 0px;
+  top: -45px;
+}
